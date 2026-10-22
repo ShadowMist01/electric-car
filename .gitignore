@@ -1,0 +1,29 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Arduino / PlatformIO build output
+build/
+.pio/
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+
+# Data written by the dashboard sketches to an SD card, if copied here
+JARAK.txt
+MONITOR.csv
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Logs
+*.log
